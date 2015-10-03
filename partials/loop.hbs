@@ -22,7 +22,11 @@
             {{/if}}
           </header>
           <section class="excerpt">
-            <p>{{excerpt words="40"}}</p>
+            {{#if meta_description}}
+            <p>{{meta_description}}</p>
+            {{else}}
+            <p>{{excerpt words="45"}}</p>
+            {{/if}}
           </section>
           <footer>
             <a href="{{url absolute="true"}}"><div class="ghostb">read</div></a>

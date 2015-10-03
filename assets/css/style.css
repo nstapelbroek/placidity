@@ -200,6 +200,9 @@
 		bottom:0;
 		right:0;
 	}
+	#loop article header {
+				margin-bottom: 1em;
+	}
 	#loop article header h1{
 		font-size:3em;
 		font-family:'Lato-Bold';
